@@ -30,4 +30,5 @@ module.exports.deleteOne = (req, res, next) => {
       res.status(200).json({ message: "admin deleted", deletedAdmin });
     })
     .catch((err) => next(err));
+  
 };
